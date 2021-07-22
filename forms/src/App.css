@@ -1,0 +1,72 @@
+* {
+    margin: auto;
+}
+
+.app {
+    background-color: whitesmoke;
+    display:contents;
+    width: 100%;
+}
+
+.app_header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    
+}
+
+.body{
+    display: flex;
+    padding-top: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.form {
+    width:inherit;
+    justify-content: center;
+}
+
+.wrapper {
+    display: block;
+    text-align: justify;
+}
+
+.textField {
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    outline: none;
+
+}
+
+.placeholder {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    padding: 0 4px;
+    background-color: transparent;
+    transform-origin: top left;
+    transition: all 120ms ease-in;
+}
+
+
+
+
+.textField:focus + .placeholder,
+.textField:not(:placeholder-shown) + .placeholder
+{
+    top: -5px;
+    transform: scale(0.8);
+    font-weight: bold;
+}
+.radio{
+    padding: 5px;
+}
+
