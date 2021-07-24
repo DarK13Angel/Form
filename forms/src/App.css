@@ -3,7 +3,7 @@
 }
 
 .app {
-    background-color: whitesmoke;
+    background-color: burlywood;
     display:contents;
     width: 100%;
 }
@@ -12,9 +12,9 @@
     position: sticky;
     z-index: 1;
     top: 0;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 5px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid silver;
     text-align: center;
     
 }
@@ -24,11 +24,16 @@
     padding-top: 10px;
     border-radius: 5px;
     justify-content: center;
+    padding-bottom:25px;
 }
 
 .form {
-    width:inherit;
+    padding: 20px;
+    border-radius: 3px;
+    border: black;
+    background-color: ghostwhite;
     justify-content: center;
+    box-shadow: 5px 10px gainsboro;
 }
 
 .wrapper {
@@ -41,16 +46,17 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    border-bottom: 1px solid black;
+    box-shadow: 5px ghostwhite;
     outline: none;
-
+    width: 100%;
+    
 }
 
 .placeholder {
     position: absolute;
-    left: 15px;
-    top: 10px;
-    padding: 0 4px;
+    left: 25px;
+    top: 30px;
+    padding: 0 6px;
     background-color: transparent;
     transform-origin: top left;
     transition: all 120ms ease-in;
